@@ -25,25 +25,24 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 60px 100px;
+  padding: 20px 40px;
 }
 
 .container {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
-  
 }
 
 .box {
   border-radius: 10px;
   padding: 25px;
   margin-bottom: 1.5em;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .box:hover {
-  
   cursor: default;
   transform: scale(1.05);
   transition: all 0.3s ease-in-out;
@@ -52,8 +51,6 @@ main {
 .box-h:hover {
   filter: brightness(110%);
 }
-
-
 
 .daniel-box {
   background-image: url(images/bg-pattern-quotation.svg);
@@ -125,6 +122,10 @@ img {
 }
 
 @media (min-width: 1200px) {
+  main {
+    padding: 60px 100px;
+  }
+
   .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -134,14 +135,13 @@ img {
   .daniel-box {
     grid-column: span 2;
   }
-  
+
   .kira-box {
     grid-column: 4;
     grid-row: 1/3;
-
   }
-  
-  
+
   .patrick-box {
     grid-column: span 2;
+  }
 }
