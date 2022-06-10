@@ -36,7 +36,7 @@ main {
 
 .box {
   border-radius: 10px;
-  padding: 25px;
+  padding: 25px 30px;
   margin-bottom: 1.5em;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -85,7 +85,7 @@ main {
 }
 
 .box > .box-info > div p {
-  padding-left: 20px;
+  padding-left: 15px;
 }
 
 img {
@@ -114,6 +114,7 @@ img {
 }
 
 .content p {
+  font-size: 14px;
   filter: opacity(70%);
 }
 
@@ -123,7 +124,7 @@ img {
 
 @media (min-width: 1200px) {
   main {
-    padding: 60px 100px;
+    padding: 130px 150px;
   }
 
   .container {
